@@ -1,0 +1,129 @@
+.ui-datepicker {
+  z-index: 1151 !important;
+}
+.detail img {
+  max-width: 250px;
+  display: flex;
+  margin: auto;
+  align-content: center;
+}
+.detail-produk img {
+  max-width: 210px;
+  display: flex;
+  margin: auto;
+  align-content: center;
+}
+.badge-outline-danger {
+  border: 1px solid red;
+  color: red;
+}
+.badge-outline-success {
+  border: 1px solid green;
+  color: green;
+}
+.badge-outline-warning {
+  border: 1px solid rgb(236, 156, 8);
+  color: rgb(236, 156, 8);
+}
+.cek-valid {
+  margin-bottom: 10px;
+}
+
+.btn-cari {
+  margin-top: 15px;
+}
+.btn-tambah {
+  margin-top: 32px;
+}
+
+.bg-ungu {
+  background-color: indigo;
+  color: white;
+}
+.bg-violet {
+  background-color: rgba(106, 230, 203, 0.562);
+  color: white;
+}
+.bg-pink {
+  background-color: rgb(138, 1, 81);
+  color: white;
+}
+.bg-ijo {
+  background-color: rgb(1, 138, 120);
+  color: white;
+}
+.bg-ijo2 {
+  background-color: rgb(138, 1, 24);
+  color: white;
+}
+
+.card .nama-sewa {
+  min-width: 204px;
+}
+.badge-outline-biru {
+  text-align: center;
+  border: 1px solid;
+  padding: 3px 6px 3px 6px;
+  border-radius: 6px;
+  color: rgb(156, 5, 216);
+}
+.badge-outline-ijo {
+  border: 1px solid;
+  border-radius: 16px;
+  color: rgb(4, 184, 34);
+}
+.badge-outline-merah {
+  border: 1px solid;
+  border-radius: 16px;
+  color: rgb(252, 1, 1);
+}
+.badge-outline-kuning {
+  border: 1px solid;
+  border-radius: 16px;
+  color: rgb(233, 171, 2);
+}
+
+.btn-pink {
+  color: rgb(252, 245, 245);
+  background-color: rgb(139, 14, 223);
+}
+.btn-pink.active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 10, 109);
+}
+.btn-pink:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 10, 109);
+}
+.btn-pink:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 10, 109);
+}
+
+.img-pedagang {
+  display: block;
+  margin: 10px auto 0px auto;
+  height: 230px;
+  width: 240px;
+}
+
+@media (min-width: 768px) {
+  .detail img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .detail img {
+    max-width: 430px;
+  }
+
+  .card-pedagang {
+    height: 240px;
+  }
+  .img-pedagang {
+    margin-top: 10px;
+    height: 220px;
+    width: 230px;
+  }
+}
